@@ -219,5 +219,11 @@ body {
   }
 }
 
+/* Stuff that Slide added */
+
+canvas {
+  border: 1px solid black;
+}
+
 
 
