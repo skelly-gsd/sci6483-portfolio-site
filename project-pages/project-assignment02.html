@@ -1,0 +1,131 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/B_1_pinecones_BW.jpg" />
+     <title>Slide's Cones</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="about.html">
+        <span class="nav-title">Slide Kelly</span>
+        <a class="button" href="project-assignment00.html">
+          <span class="button-text">00 | A Weed Garden</span>
+        <a class="button" href="project-assignment01.html">
+          <span class="button-text">01 | VJ Loop</span>
+        <a class="button" href="project-assignment02.html">
+          <span class="button-text">02 | Storm Cubes</span>
+        <a class="button" href="project-final.html">
+          <span class="button-text">...n | Climate Models</span>
+        <a class="button" href="../index.html">
+          <span class="button-text">I miss the pine cone</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Storm Form</div>
+        <div class="body-text">Printing cubes of fluid atmosphere.<br><br>In collaboration with Jimi Adeseun, MArch II 25'</div>
+        <image class="project-header-image" src="../assets/images/IMG_05.jpg">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">Atmospheric data is a good contender for modeling in three dimensions. However, how does swapping one physical dimension for the fourth dimension - time - change what we can learn from the weather? Storm form recorded the development and dispersion of multiple storms around the western hemisphere for physicalization in a hyper-dimensional, multi-material 3D print.</div>
+          <div class="body-text">Developing weather patterns in Ecuador, Boston, Seattle, Chile, and in the Pacific Ocean were recorded by automating an export of NASA radar data from ArcGIS every 10 minutes. Then, voxel meshes were created in Grasshopper using VoxelTools and custom C# components to map radar image colors to mesh vertices. Finally, storm cubes for Ecuador and the Pacific were printed using Stratsys J55 multimaterial printer.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <div class="gallery-image-container half-width">
+                <img src="../assets/images/GIF_Storm-Form_Boston.gif" class="gallery-image">
+                <span class="image-caption">Boston - 3/27/2023</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GIF_Storm-Form_Ecuador.gif" class="gallery-image">
+              <span class="image-caption">Ecuador - 3/27/2023.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GIF_Storm-Form_Pacific.gif" class="gallery-image">
+              <span class="image-caption">Central Pacific - 3/27/2023.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GIF_Storm-Form_Seattle.gif" class="gallery-image">
+              <span class="image-caption">Seattle - 3/27/2023.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/ArcGIS_Screenshot.png" class="gallery-image">
+              <span class="image-caption">Recording Storms in ArcGIS.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/Ecuador_Multicolored Print_01.png" class="gallery-image">
+              <span class="image-caption">Voxelized storms in Rhino.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/Ecuador_Multicolored Print_02.png" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/IMG_02.jpg" class="gallery-image">
+              <span class="image-caption">The Final Printed Object.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+	</body>
+</html>

@@ -1,0 +1,181 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/B_1_pinecones_BW.jpg" />
+     <title>lide's Cones: Work from GSD Procedural Fields<</title>
+    <meta name="description" content="A portfolio template for the Unemployables community.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="about.html">
+        <span class="nav-title">Slide Kelly</span>
+        <a class="button" href="project-assignment00.html">
+          <span class="button-text">A Weed Garden</span>
+        <a class="button" href="project-assignment00.html">
+          <span class="button-text">A Chill Loop</span>
+        <a class="button" href="project-assignment02.html">
+          <span class="button-text">Storm Cubes</span>
+        <a class="button" href="project-assignment00.html">
+          <span class="button-text">Climate Models</span>
+        <a class="button" href="../index.html">
+          <span class="button-text">I miss the pine cone</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">Multi-Dimensional Climate Models</div>
+        <div class="body-text">Tools for modeling and fabricating with Google Earth Engine geospatial data.</div>
+        <image class="project-header-image" src="../assets/images/final-project-intro.png">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">Standard GIS to Rhino 3D modeling workflows are typically designed to pass only a single depth of dimensional raster imagery data, such as a digital elevation model for the creation of a terrain surface, and without ability for easy temporal visualization. As open source spatial resouces such as Google Earth Engine becomes an increasingly important repository for atmospheric and climate change data, and these data require multiple dimensions to visualize and interpret responsibly, designers deserve tools that allows greater access to the world of geospatial imagery</div>
+          <div class="body-text">This project developed a method and workflow for modeling multiple dimensions of Google Earth Engine geospatial data in Rhino, ultimately enabling the fabrication of six climate "transparencies" for changing years from 2012 to 2062 over Fort Ord national monument in Monterey County CA. It employed javascript server queries the web based Google Earth Engine Code for downloading and comiling data, the Heron grasshopper plugin for importing data, and custom C# and grasshopper workflows for translating data and creating stacked visualizations of projected minimum temp, maximum temp, and precipitation according to NASA Downscaled Climate Projection Models. The climate transparencies were then prepared as watertight, colored meshes for multimaterial 3D printing using Stratasys J55 printers.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/Screenshot 2024-05-03 121010.png" class="gallery-image">
+              <span class="image-caption">A sample visualization and code export from GEE Code.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/Screenshot 2024-05-03 121153.png" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/Presentation_MBothTemp.jpg" class="gallery-image">
+              <span class="image-caption">Minimum Temperature and Maximum Temperature Transposed in 3D space.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/Presentation_Section.jpg" class="gallery-image">
+              <span class="image-caption">Min and max temperature range closed mesh, showing varying temperature range conditions from mountains to coast.</span>
+            </div>
+          <!--
+            <div class="gallery-image-container">
+              <img src="../assets/images/MultidimensionalClimateModel_01.gif" class="gallery-image">
+              <span class="image-caption">Temperature ranges for dry and wet seasons (summer and winter) with percipitation visualized as an extrusion against topography. Ranges can be animated across many years.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/MultidimensionalClimateModel_02.gif" class="gallery-image">
+              <span class="image-caption">Range mesh rebuilds on the fly based on custom C# components for remapping input data as mesh vertices according to a bounding box.</span>
+            </div>
+          -->
+            <div class="gallery-image-container half-width">
+                <img src="../assets/images/ModelSlide_01.png" class="gallery-image">
+                <span class="image-caption">Preparation of printable slide representing min and max temperatures, precipitation, and site conditions for 2012.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/ModelSlide_06.png" class="gallery-image">
+              <span class="image-caption">Printable slide representing the same projected conditions for 2062.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/VoxelField.png" class="gallery-image">
+              <span class="image-caption">Voxelized field conditions for the Fort Ord site in Seaside, CA, including unexploded military ordinance and an eventual pine forest.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/IMG_5709.jpg" class="gallery-image">
+              <span class="image-caption">Printed slides, representing 2012, 2022, 2032, 2042, 2052, and 2062 in climate and design project years.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/IMG_5708.jpg" class="gallery-image">
+              <span class="image-caption">Slides can be stacked front to back.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/IMG_5712.jpg" class="gallery-image">
+              <span class="image-caption">Or compared sectionally from the side.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/IMG_5714.jpg" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
